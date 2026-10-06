@@ -1,0 +1,36 @@
+/* DESIGN TOKENS: change colors here and the whole site updates. */
+:root {
+  --bg: #F2FBFC;        /* page background */
+  --surface: #FFFFFF;   /* cards, form */
+  --ink: #14434E;       /* main text (deep teal, not navy) */
+  --muted: #4A6F78;     /* secondary text */
+  --aqua: #7EE0D5;      /* main accent (buttons, step badges) */
+  --aqua-hover: #9AE8DF;
+  --aqua-d: #1FA89C;    /* borders, focus, success text */
+  --sky: #CBEAF7;       /* light blue tags */
+  --foam: #DDF6F2;      /* alternate section background */
+  --line: #CDE7EC;      /* borders */
+  --on-aqua: #14434E;   /* text on aqua buttons */
+
+  --radius-card: 18px;
+  --radius-small: 14px;
+  --font-display: "Bricolage Grotesque", Figtree, system-ui, sans-serif;
+  --font-body: Figtree, system-ui, sans-serif;
+}
+
+/* Dark theme: used when the visitor's device is in dark mode */
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #0E2A30; --surface: #153A42; --ink: #E4F7F6; --muted: #9CC4C8;
+    --aqua-d: #5FD3C7; --sky: #1D4A55; --foam: #18434B; --line: #24545D;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #0E2A30; --surface: #153A42; --ink: #E4F7F6; --muted: #9CC4C8;
+  --aqua-d: #5FD3C7; --sky: #1D4A55; --foam: #18434B; --line: #24545D;
+}
+
+/* Error text */
+:root { --error: #B3402F; }
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) { --error: #FF9C8F; } }
+:root[data-theme="dark"] { --error: #FF9C8F; }

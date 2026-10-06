@@ -1,0 +1,24 @@
+/* LAYOUT: page width, header, hero, sections, footer */
+.wrap { max-width: 1080px; margin: 0 auto; padding: 0 1.25rem; }
+
+header { display: flex; align-items: center; justify-content: space-between; gap: 1rem; padding: 1rem 0; flex-wrap: wrap; }
+.logo { font: 800 1.25rem var(--font-display); text-decoration: none; }
+nav { display: flex; gap: 1.25rem; flex-wrap: wrap; }
+nav a { text-decoration: none; font-weight: 600; color: var(--muted); }
+nav a:hover { color: var(--ink); }
+
+.hero { display: grid; grid-template-columns: 1.15fr .85fr; gap: 2rem; align-items: center; padding: 3rem 0 4rem; }
+.hero p { font-size: 1.2rem; color: var(--muted); }
+.cta { display: flex; gap: .75rem; flex-wrap: wrap; margin-top: 1.5rem; }
+.hero-art { width: 100%; height: auto; max-width: 380px; justify-self: center; animation: bob 5s ease-in-out infinite; }
+@keyframes bob { 50% { transform: translateY(-8px); } }
+
+section { padding: 3.5rem 0; }
+.band { background: var(--foam); }
+
+footer { padding: 2rem 0 3rem; color: var(--muted); border-top: 1px solid var(--line); }
+
+@media (max-width: 760px) {
+  .hero { grid-template-columns: 1fr; padding-top: 1.5rem; }
+  .hero-art { max-width: 240px; order: -1; justify-self: start; }
+}
