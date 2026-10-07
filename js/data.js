@@ -20,7 +20,9 @@ TT.resources = [
 ];
 
 /* Placeholder projects. Delete these once real posts exist. */
+TT.projects = [
 
+];
 
 /* Emoji shown on each card by project type. Keep in sync with the <select> in index.html. */
 TT.kindIcons = { "Invention": "💡", "Research paper": "📄", "Tech idea": "🔧" };
