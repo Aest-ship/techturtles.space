@@ -20,11 +20,7 @@ TT.resources = [
 ];
 
 /* Placeholder projects. Delete these once real posts exist. */
-TT.examples = [
-  { title: "Rain-powered plant waterer",  who: "Example", kind: "Invention",      desc: "A small tank and valve that waters pots using collected rainwater." },
-  { title: "Cheaper braille label maker", who: "Example", kind: "Tech idea",      desc: "A concept using a 3D printer pen to make braille labels at home." },
-  { title: "How solar chargers lose power", who: "Example", kind: "Research paper", desc: "A short paper on shade, heat and angle, with measurements." }
-];
+
 
 /* Emoji shown on each card by project type. Keep in sync with the <select> in index.html. */
 TT.kindIcons = { "Invention": "💡", "Research paper": "📄", "Tech idea": "🔧" };
