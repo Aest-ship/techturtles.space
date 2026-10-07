@@ -20,7 +20,7 @@ TT.resources = [
 ];
 
 /* Placeholder projects. Delete these once real posts exist. */
-TT.storage = [
+TT.examples = [
 
 ];
 
