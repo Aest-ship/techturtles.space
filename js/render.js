@@ -56,7 +56,7 @@
     showcase: function () {
       var grid = document.getElementById("grid");
       var status = document.getElementById("showcase-status");
-      var example = (TT.config.showExamples && TT.examples) ? TT.examples.map(function (p) { return TT.render.card(p, true); }) : [];
+      var examples = (TT.config.showExamples && TT.examples) ? TT.examples.map(function (p) { return TT.render.card(p, true); }) : [];
 
 
       if (!grid.dataset.deleteHandlerAttached) {
