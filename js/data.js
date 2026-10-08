@@ -16,7 +16,7 @@ TT.resources = [
   { tag: "Coding",      title: "Scratch",               text: "Learn to code by building games and animations.",         url: "https://scratch.mit.edu/" },
   { tag: "Science",     title: "Khan Academy Physics",  text: "Free lessons on forces, energy and circuits.",            url: "https://www.khanacademy.org/science/physics" },
   { tag: "Protect it",  title: "IP for Kids (WIPO)",    text: "What patents and copyright mean for your idea.",          url: "https://www.wipo.int/en/web/ip-for-kids" },
-  { tag: "Inspiration", title: "Don Labs", text: "Watch what happens when young inventors build their ideas.", url: "https://donlabs.lat/Home" }
+  { tag: "Inspiration", title: "Don Labs", text: "Watch what happens when young inventors build their ideas.", url: "https://donlabs.lat" }
 ];
 
 /* Placeholder projects. Delete these once real posts exist. */
